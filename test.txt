@@ -1,1 +1,29 @@
 Our First Thing in github
+Manual
+
+//adding info
+    git config --global user.name 'writtencode10'
+    git config --global user.email 'writtencode10@gmail.com'git 
+//adding to master
+    git add file.ext
+    git status
+//removing file
+    git rm --cached file.ext
+//adding same ext
+    git add *html
+//adding everything
+    git add .
+//adding commit
+    git commit -m 'changed'
+//renaming or creating branch
+    git branch login
+    git checkout login
+//merging other branch to master
+    git merge login
+//adding to the remote repo
+    git remote add origin https://github.com/writtencode10/cplusplus.git
+    git push -u origin master
+//cloning 
+    git clone https://github.com/elaheashik/myNewTest1.git
+//force push
+git push origin master -f
